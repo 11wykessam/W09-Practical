@@ -36,7 +36,15 @@ public class Game {
             else System.out.println(BLACKPLAYS_MSG);
 
             String pos1 = reader.getString();
+            // check if the user types quit
+            if(pos1.equals("quit")) {
+                break;
+            }
             String pos2 = reader.getString();
+            // check if user types quit
+            if(pos2.equals("quit")) {
+                break;
+            }
 
             // attempt to move piece the method will return false if the move is invalid and an error will be printed
             if (!gameBoard.movePiece(pos1, pos2, turn)) {
