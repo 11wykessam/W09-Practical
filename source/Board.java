@@ -127,7 +127,6 @@ public class Board {
 
         // firstly check the input is valid and then convert to x and y positions
         if (startPos.length() == 2 && endPos.length() == 2) {
-
             // use the convert method to find x position corresponding to character entered and convert to array index number
             startX = convertLetterCoord(startPos.charAt(0));
             endX = convertLetterCoord(endPos.charAt(0));
@@ -155,6 +154,9 @@ public class Board {
                 // check if that piece belongs to the currentPlayer
                 // first find the piece
                 pieceToMove = findPieceAt(startX, startY);
+
+                // make sure that piece is the correct colour
+                if(pieceToMove.getColour() != playerColour) return false;
 
                 // now check if the move is valid
                 if(pieceToMove.isMoveValid(endX, endY, playerColour)) {
