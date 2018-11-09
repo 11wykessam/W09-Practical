@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05c2f125-e89f-4ac4-8c18-28b8a5c83394" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/Game.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +15,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Board.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="-241">
               <caret line="158" column="73" selection-start-line="158" selection-start-column="73" selection-end-line="158" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,14 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-              <folding>
-                <element signature="method#play#0;class#Game#0" />
-              </folding>
+            <state relative-caret-position="415">
+              <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -110,8 +106,8 @@
         <option value="$PROJECT_DIR$/source/ChessPiece.java" />
         <option value="$PROJECT_DIR$/source/Rook.java" />
         <option value="$PROJECT_DIR$/source/Bishop.java" />
-        <option value="$PROJECT_DIR$/source/Game.java" />
         <option value="$PROJECT_DIR$/source/Board.java" />
+        <option value="$PROJECT_DIR$/source/Game.java" />
       </list>
     </option>
   </component>
@@ -248,12 +244,27 @@
       <workItem from="1541610754309" duration="3215000" />
       <workItem from="1541693445779" duration="5631000" />
       <workItem from="1541702133950" duration="3348000" />
-      <workItem from="1541761533573" duration="5731000" />
+      <workItem from="1541761533573" duration="6010000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed non-player being able to move">
+      <created>1541771268928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541771268928</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Player can type quit to quit">
+      <created>1541771415591</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541771415591</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32352000" />
+    <option name="totallyTimeSpent" value="32631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="16" width="949" height="1009" extended-state="0" />
@@ -325,9 +336,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed non-player being able to move" />
+    <MESSAGE value="Player can type quit to quit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Player can type quit to quit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -721,19 +737,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="method#play#0;class#Game#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="-241">
           <caret line="158" column="73" selection-start-line="158" selection-start-column="73" selection-end-line="158" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -746,6 +752,13 @@
             <element signature="method#findPieceAt#0;class#Board#0" />
             <element signature="method#removePieceAt#0;class#Board#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
         </state>
       </provider>
     </entry>

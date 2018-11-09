@@ -59,11 +59,13 @@ public class Game {
                 // black win
                 case 0:
                     done = true;
+                    gameBoard.printBoard();
                     System.out.println(BLACKWINS_MSG);
                     break;
                 // white win
                 case 1:
                     done = true;
+                    gameBoard.printBoard();
                     System.out.println(WHITEWINS_MSG);
                     break;
             }
