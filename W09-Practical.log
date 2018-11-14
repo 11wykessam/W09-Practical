@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.9.30)  7 NOV 2018 10:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.9.30)  13 NOV 2018 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -202,36 +202,136 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 41.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<./images/screenshot1.jpg, id=10, 45.5301pt x 43.6029pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<./images/screenshot1.jpg, id=13, 45.5301pt x 43.6029pt>
 File: ./images/screenshot1.jpg Graphic file (type jpg)
 <use ./images/screenshot1.jpg>
-Package pdftex.def Info: ./images/screenshot1.jpg  used on input line 74.
+Package pdftex.def Info: ./images/screenshot1.jpg  used on input line 84.
 (pdftex.def)             Requested size: 113.82495pt x 109.00696pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-[2 <./images/screenshot1.jpg>] (./W09-Practical.aux) ) 
+<./images/startState.jpg, id=14, 45.2892pt x 47.9391pt>
+File: ./images/startState.jpg Graphic file (type jpg)
+<use ./images/startState.jpg>
+Package pdftex.def Info: ./images/startState.jpg  used on input line 94.
+(pdftex.def)             Requested size: 113.22269pt x 119.84741pt.
+[3 <./images/screenshot1.jpg>]
+<./images/rookBasicMovement.jpg, id=20, 38.0622pt x 38.7849pt>
+File: ./images/rookBasicMovement.jpg Graphic file (type jpg)
+<use ./images/rookBasicMovement.jpg>
+Package pdftex.def Info: ./images/rookBasicMovement.jpg  used on input line 110
+.
+(pdftex.def)             Requested size: 95.15521pt x 96.96198pt.
+File: ./images/screenshot1.jpg Graphic file (type jpg)
+<use ./images/screenshot1.jpg>
+Package pdftex.def Info: ./images/screenshot1.jpg  used on input line 120.
+(pdftex.def)             Requested size: 113.82495pt x 109.00696pt.
+ [4 <./images/startState.jpg> <./images/rookBasicMovement.jpg>]
+<./images/nothingHappened.jpg, id=24, 45.2892pt x 52.2753pt>
+File: ./images/nothingHappened.jpg Graphic file (type jpg)
+<use ./images/nothingHappened.jpg>
+Package pdftex.def Info: ./images/nothingHappened.jpg  used on input line 134.
+(pdftex.def)             Requested size: 113.22269pt x 130.6879pt.
+<./images/rookTakesRook.jpg, id=25, 37.8213pt x 38.544pt>
+File: ./images/rookTakesRook.jpg Graphic file (type jpg)
+<use ./images/rookTakesRook.jpg>
+Package pdftex.def Info: ./images/rookTakesRook.jpg  used on input line 148.
+(pdftex.def)             Requested size: 94.553pt x 96.35974pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+[5 <./images/nothingHappened.jpg> <./images/rookTakesRook.jpg>]
+<./images/bishopsMoving.jpg, id=29, 37.5804pt x 40.2303pt>
+File: ./images/bishopsMoving.jpg Graphic file (type jpg)
+<use ./images/bishopsMoving.jpg>
+Package pdftex.def Info: ./images/bishopsMoving.jpg  used on input line 166.
+(pdftex.def)             Requested size: 93.95073pt x 100.57549pt.
+<./images/illegal.jpg, id=30, 39.7485pt x 43.1211pt>
+File: ./images/illegal.jpg Graphic file (type jpg)
+<use ./images/illegal.jpg>
+Package pdftex.def Info: ./images/illegal.jpg  used on input line 177.
+(pdftex.def)             Requested size: 99.37099pt x 107.80243pt.
+<./images/rookObstruction.jpg, id=31, 36.8577pt x 40.4712pt>
+File: ./images/rookObstruction.jpg Graphic file (type jpg)
+<use ./images/rookObstruction.jpg>
+Package pdftex.def Info: ./images/rookObstruction.jpg  used on input line 195.
+(pdftex.def)             Requested size: 92.14397pt x 101.17775pt.
+ [6 <./images/bishopsMoving.jpg> <./images/illegal.jpg>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 200.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 200.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 212.
+
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 212.
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
+
+
+Overfull \hbox (68.62027pt too wide) in paragraph at lines 229--238
+[][] 
+ []
+
+[7 <./images/rookObstruction.jpg>]
+<./images/whitePlays.jpg, id=40, 49.1436pt x 46.2528pt>
+File: ./images/whitePlays.jpg Graphic file (type jpg)
+<use ./images/whitePlays.jpg>
+Package pdftex.def Info: ./images/whitePlays.jpg  used on input line 242.
+(pdftex.def)             Requested size: 122.85866pt x 115.63171pt.
+<./images/blackPlays.jpg, id=41, 45.5301pt x 46.9755pt>
+File: ./images/blackPlays.jpg Graphic file (type jpg)
+<use ./images/blackPlays.jpg>
+Package pdftex.def Info: ./images/blackPlays.jpg  used on input line 246.
+(pdftex.def)             Requested size: 113.82495pt x 117.43843pt.
+<./images/whiteWins.jpg, id=42, 65.2839pt x 56.1297pt>
+File: ./images/whiteWins.jpg Graphic file (type jpg)
+<use ./images/whiteWins.jpg>
+Package pdftex.def Info: ./images/whiteWins.jpg  used on input line 252.
+(pdftex.def)             Requested size: 163.20934pt x 140.32387pt.
+ [8 <./images/whitePlays.jpg> <./images/blackPlays.jpg>]
+<./images/blackWins.jpg, id=46, 60.9477pt x 56.3706pt>
+File: ./images/blackWins.jpg Graphic file (type jpg)
+<use ./images/blackWins.jpg>
+Package pdftex.def Info: ./images/blackWins.jpg  used on input line 258.
+(pdftex.def)             Requested size: 152.3688pt x 140.92613pt.
+<./images/quit.jpg, id=47, 59.7432pt x 58.5387pt>
+File: ./images/quit.jpg Graphic file (type jpg)
+<use ./images/quit.jpg>
+Package pdftex.def Info: ./images/quit.jpg  used on input line 264.
+(pdftex.def)             Requested size: 149.35756pt x 146.34636pt.
+ [9 <./images/whiteWins.jpg> <./images/blackWins.jpg> <./images/quit.jpg>] [10]
+ [11] (./W09-Practical.aux) ) 
 Here is how much of TeX's memory you used:
- 3407 strings out of 492642
- 46172 string characters out of 6135566
+ 3487 strings out of 492642
+ 48046 string characters out of 6135566
  302612 words of memory out of 5000000
- 7263 multiletter control sequences out of 15000+600000
+ 7328 multiletter control sequences out of 15000+600000
  8054 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,40p,936b,1159s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on W09-Practical.pdf (2 pages, 99973 bytes).
+ 41i,9n,40p,983b,1159s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
+9.pfb>
+Output written on W09-Practical.pdf (11 pages, 365612 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="W09-Practical:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="05c2f125-e89f-4ac4-8c18-28b8a5c83394" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/W09_Practical_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-Extension/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-Extension/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-Extension/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-Extension/W09-Extension.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-Extension/source/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-Extension/source/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-Extension/source/ChessPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-Extension/source/EasyIn2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-Extension/source/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-Extension/source/Rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-Extension/source/W09Extension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W09-Practical.log" beforeDir="false" afterPath="$PROJECT_DIR$/W09-Practical.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W09-Practical.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/W09-Practical.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W09-Practical.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/W09-Practical.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W09-Practical.tex" beforeDir="false" afterPath="$PROJECT_DIR$/W09-Practical.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/W09-Practical/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/W09-Practical/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/W09-Practical/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/W09-Practical/Game.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,31 +38,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/Board.java">
+      <file leaf-file-name="EasyIn2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/EasyIn2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-241">
-              <caret line="158" column="73" selection-start-line="158" selection-start-column="73" selection-end-line="158" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Board#0;class#Board#0" />
-                <element signature="method#updateGameState#0;class#Board#0" />
-                <element signature="method#printBoard#0;class#Board#0" />
-                <element signature="method#getWin#0;class#Board#0" />
-                <element signature="method#convertLetterCoord#0;class#Board#0" />
-                <element signature="method#isPositionOccupied#0;class#Board#0" />
-                <element signature="method#findPieceAt#0;class#Board#0" />
-                <element signature="method#removePieceAt#0;class#Board#0" />
-              </folding>
+            <state relative-caret-position="160">
+              <caret line="10" column="12" selection-end-line="167" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChessPiece.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/ChessPiece.java">
+      <file leaf-file-name="W09Practical.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/W09Practical.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="128">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="38" column="21" selection-end-line="77" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -47,39 +68,11 @@
       <file leaf-file-name="Rook.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/Rook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="848">
-              <caret line="53" column="79" selection-start-line="53" selection-start-column="79" selection-end-line="53" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bishop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/Bishop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            <state relative-caret-position="192">
+              <caret line="12" column="23" selection-end-line="75" />
               <folding>
-                <element signature="e#3149#3150#0" expanded="true" />
-                <element signature="e#3178#3179#0" expanded="true" />
+                <element signature="method#isMoveValid#0;class#Rook#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="W09Practical.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/W09Practical.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -132,8 +125,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,10 +147,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="w09-practical" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -244,7 +244,11 @@
       <workItem from="1541610754309" duration="3215000" />
       <workItem from="1541693445779" duration="5631000" />
       <workItem from="1541702133950" duration="3348000" />
-      <workItem from="1541761533573" duration="6010000" />
+      <workItem from="1541761533573" duration="11926000" />
+      <workItem from="1541781504511" duration="3917000" />
+      <workItem from="1541854181136" duration="5221000" />
+      <workItem from="1541950011349" duration="4679000" />
+      <workItem from="1542034754440" duration="428000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed non-player being able to move">
       <created>1541771268928</created>
@@ -260,11 +264,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541771415591</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed Win Message">
+      <created>1541771539903</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541771539903</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32631000" />
+    <option name="totallyTimeSpent" value="52792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="16" width="949" height="1009" extended-state="0" />
@@ -272,7 +283,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32938644" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -280,11 +290,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947807" visible="true" weight="0.3358946" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947807" weight="0.34906697" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18518518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45185184" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -298,36 +308,37 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32938644" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947807" visible="true" weight="0.32938644" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32938644" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18580376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935413" />
-      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005219" side_tool="true" visible="true" weight="0.32938644" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32938644" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,11 +350,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed non-player being able to move" />
     <MESSAGE value="Player can type quit to quit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Player can type quit to quit" />
+    <MESSAGE value="Fixed Win Message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Win Message" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/source/Board.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/source/Rook.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -354,9 +380,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Board#0;class#Board#0" />
-            <element signature="method#updateGameState#0;class#Board#0" />
             <element signature="method#printBoard#0;class#Board#0" />
-            <element signature="method#getWin#0;class#Board#0" />
+            <element signature="method#movePiece#0;class#Board#0" />
             <element signature="method#convertLetterCoord#0;class#Board#0" />
             <element signature="method#isPositionOccupied#0;class#Board#0" />
             <element signature="method#findPieceAt#0;class#Board#0" />
@@ -407,9 +432,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Board#0;class#Board#0" />
-            <element signature="method#updateGameState#0;class#Board#0" />
             <element signature="method#printBoard#0;class#Board#0" />
-            <element signature="method#getWin#0;class#Board#0" />
+            <element signature="method#movePiece#0;class#Board#0" />
             <element signature="method#convertLetterCoord#0;class#Board#0" />
             <element signature="method#isPositionOccupied#0;class#Board#0" />
             <element signature="method#findPieceAt#0;class#Board#0" />
@@ -453,9 +477,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Board#0;class#Board#0" />
-            <element signature="method#updateGameState#0;class#Board#0" />
             <element signature="method#printBoard#0;class#Board#0" />
-            <element signature="method#getWin#0;class#Board#0" />
+            <element signature="method#movePiece#0;class#Board#0" />
             <element signature="method#convertLetterCoord#0;class#Board#0" />
             <element signature="method#isPositionOccupied#0;class#Board#0" />
             <element signature="method#findPieceAt#0;class#Board#0" />
@@ -499,9 +522,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Board#0;class#Board#0" />
-            <element signature="method#updateGameState#0;class#Board#0" />
             <element signature="method#printBoard#0;class#Board#0" />
-            <element signature="method#getWin#0;class#Board#0" />
+            <element signature="method#movePiece#0;class#Board#0" />
             <element signature="method#convertLetterCoord#0;class#Board#0" />
             <element signature="method#isPositionOccupied#0;class#Board#0" />
             <element signature="method#findPieceAt#0;class#Board#0" />
@@ -545,9 +567,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Board#0;class#Board#0" />
-            <element signature="method#updateGameState#0;class#Board#0" />
             <element signature="method#printBoard#0;class#Board#0" />
-            <element signature="method#getWin#0;class#Board#0" />
+            <element signature="method#movePiece#0;class#Board#0" />
             <element signature="method#convertLetterCoord#0;class#Board#0" />
             <element signature="method#isPositionOccupied#0;class#Board#0" />
             <element signature="method#findPieceAt#0;class#Board#0" />
@@ -690,13 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/EasyIn2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2672">
-          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/WhiteRook.java" />
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -705,48 +719,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/W09Practical.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/ChessPiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/Rook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="53" column="79" selection-start-line="53" selection-start-column="79" selection-end-line="53" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/Bishop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-          <folding>
-            <element signature="e#3149#3150#0" expanded="true" />
-            <element signature="e#3178#3179#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-end-line="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="158" column="73" selection-start-line="158" selection-start-column="73" selection-end-line="158" selection-end-column="73" />
+        <state relative-caret-position="97">
+          <caret line="75" lean-forward="true" selection-end-line="278" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Board#0;class#Board#0" />
-            <element signature="method#updateGameState#0;class#Board#0" />
             <element signature="method#printBoard#0;class#Board#0" />
-            <element signature="method#getWin#0;class#Board#0" />
+            <element signature="method#movePiece#0;class#Board#0" />
             <element signature="method#convertLetterCoord#0;class#Board#0" />
             <element signature="method#isPositionOccupied#0;class#Board#0" />
             <element signature="method#findPieceAt#0;class#Board#0" />
@@ -755,12 +743,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/Game.java">
+    <entry file="file://$PROJECT_DIR$/source/ChessPiece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+        <state relative-caret-position="112">
+          <caret line="7" lean-forward="true" selection-end-line="50" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/EasyIn2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="12" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="38" column="21" selection-end-line="77" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Rook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="23" selection-end-line="75" />
+          <folding>
+            <element signature="method#isMoveValid#0;class#Rook#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/W09Practical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>W09-Practical:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>W09-Practical</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
