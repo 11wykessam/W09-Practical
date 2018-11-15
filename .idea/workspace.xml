@@ -7,14 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05c2f125-e89f-4ac4-8c18-28b8a5c83394" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/source/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChessPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/EasyIn2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EasyIn2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/W09Practical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W09Practical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W09-Practical.iml" beforeDir="false" afterPath="$PROJECT_DIR$/W09-Practical.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bishop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChessPiece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EasyIn2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/W09Practical.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,47 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EasyIn2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EasyIn2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="12" selection-end-line="167" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="W09Practical.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/W09Practical.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="38" column="21" selection-end-line="77" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rook.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="23" selection-end-line="75" />
-              <folding>
-                <element signature="method#isMoveValid#0;class#Rook#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -125,7 +86,7 @@
             <path>
               <item name="W09-Practical" type="b2602c69:ProjectViewProjectNode" />
               <item name="W09-Practical" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,7 +198,7 @@
       <workItem from="1541854181136" duration="5221000" />
       <workItem from="1541950011349" duration="4679000" />
       <workItem from="1542034754440" duration="428000" />
-      <workItem from="1542291756567" duration="418000" />
+      <workItem from="1542291756567" duration="544000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed non-player being able to move">
       <created>1541771268928</created>
@@ -264,7 +225,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53210000" />
+    <option name="totallyTimeSpent" value="53336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="16" width="1920" height="1027" extended-state="0" />
@@ -278,7 +239,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005219" side_tool="true" weight="0.32938644" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947807" visible="true" weight="0.3487621" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947807" weight="0.3487621" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
