@@ -17,7 +17,7 @@ public class ComputerPlayer {
     // makes a move
     public void makeMove() {
         ArrayList<Board> possibleMoves = currentBoard.getPossibleBoards(false);
-        Board maxBoard = new Board(false);
+        Board maxBoard = new Board(false, game);
         int maxBoardScore = -1000000000;
         for (Board board : possibleMoves) {
             int branchScore = getBranchScore(board, recursionDepth, true);

@@ -19,11 +19,15 @@ public class Board implements Serializable {
     private int boardsize;
     private char[][] board;
 
+    // store the game that this is being executed from
+    private Game game;
+
     // store the current player turn
     private boolean turn;
 
     // constructor for board blank board sets whether the board is clear or not on initialisation
-    public Board(boolean blankBoard) {
+    public Board(boolean blankBoard, Game game) {
+        this.game = game;
         this.boardsize = DEFAULT_SIZE;
 
         board = new char[boardsize][boardsize];
@@ -403,7 +407,7 @@ public class Board implements Serializable {
 
     // returns copy of this board
     public Board getCopy() {
-        Board board = new Board(true);
+        Board board = new Board(true, game);
         for (ChessPiece piece : pieces) {
             if (piece instanceof Bishop) board.getPieces().add(new Bishop(piece.getX(), piece.getY(), piece.getColour(), board));
             else if (piece instanceof King) board.getPieces().add(new King(piece.getX(), piece.getY(), piece.getColour(), board));
@@ -422,6 +426,14 @@ public class Board implements Serializable {
             if (piece instanceof King) count++;
         }
         return count;
+    }
+
+    // if there is 1 king left get its colour
+    public boolean getKingColour() {
+        for (ChessPiece piece : pieces) {
+            if (piece instanceof King) return piece.getColour();
+        }
+        return false;
     }
 
     // getters and setters

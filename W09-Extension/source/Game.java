@@ -18,7 +18,7 @@ public class Game {
 
     // Minimal constructor. Expand as needed (kt54)
     public Game() {
-        gameBoard = new Board(false);
+        gameBoard = new Board(false, this);
     }
 
     // Build on this method to implement game logic.
@@ -27,7 +27,7 @@ public class Game {
         // initialise variables
         EasyIn2 reader = new EasyIn2();
 
-        gameBoard = new Board(false);
+        gameBoard = new Board(false, this);
 
         gameBoard.setTurn(true);
 
@@ -95,7 +95,6 @@ public class Game {
                 // check for a win
                 done = isDone();
 
-
             }
 
             else {
@@ -119,7 +118,9 @@ public class Game {
             }
 
             if (checkMate) {
-                System.out.println(WHITECHECKMATE);
+                boolean kingColour = gameBoard.getKingColour();
+                if (kingColour) System.out.println(WHITECHECKMATE);
+                else System.out.println(BLACKCHECKMATE);
                 return true;
             }
             else System.out.println(WHITECHECK);
@@ -135,7 +136,9 @@ public class Game {
             }
 
             if (checkMate) {
-                System.out.println(BLACKCHECKMATE);
+                boolean kingColour = gameBoard.getKingColour();
+                if (kingColour) System.out.println(WHITECHECKMATE);
+                else System.out.println(BLACKCHECKMATE);
                 return true;
             }
             else System.out.println(BLACKCHECK);
