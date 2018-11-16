@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.9.30)  13 NOV 2018 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.9.30)  16 NOV 2018 09:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -312,26 +312,91 @@ File: ./images/quit.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./images/quit.jpg  used on input line 264.
 (pdftex.def)             Requested size: 149.35756pt x 146.34636pt.
  [9 <./images/whiteWins.jpg> <./images/blackWins.jpg> <./images/quit.jpg>] [10]
- [11] (./W09-Practical.aux) ) 
+ [11]
+<./images/queenStartPos.jpg, id=57, 36.8577pt x 39.7485pt>
+File: ./images/queenStartPos.jpg Graphic file (type jpg)
+<use ./images/queenStartPos.jpg>
+Package pdftex.def Info: ./images/queenStartPos.jpg  used on input line 312.
+(pdftex.def)             Requested size: 92.14397pt x 99.37099pt.
+<./images/queenPosMoves.jpg, id=58, 15.1767pt x 30.3534pt>
+File: ./images/queenPosMoves.jpg Graphic file (type jpg)
+<use ./images/queenPosMoves.jpg>
+Package pdftex.def Info: ./images/queenPosMoves.jpg  used on input line 318.
+(pdftex.def)             Requested size: 37.94159pt x 75.88326pt.
+<./images/kingStartPos.jpg, id=59, 35.6532pt x 39.7485pt>
+File: ./images/kingStartPos.jpg Graphic file (type jpg)
+<use ./images/kingStartPos.jpg>
+Package pdftex.def Info: ./images/kingStartPos.jpg  used on input line 325.
+(pdftex.def)             Requested size: 89.13272pt x 99.37099pt.
+ [12 <./images/queenStartPos.jpg> <./images/queenPosMoves.jpg>]
+<./images/kingPosMoves.jpg, id=63, 15.6585pt x 29.8716pt>
+File: ./images/kingPosMoves.jpg Graphic file (type jpg)
+<use ./images/kingPosMoves.jpg>
+Package pdftex.def Info: ./images/kingPosMoves.jpg  used on input line 331.
+(pdftex.def)             Requested size: 39.14607pt x 74.67876pt.
+<./images/knightStartPos.jpg, id=64, 35.4123pt x 39.7485pt>
+File: ./images/knightStartPos.jpg Graphic file (type jpg)
+<use ./images/knightStartPos.jpg>
+Package pdftex.def Info: ./images/knightStartPos.jpg  used on input line 339.
+(pdftex.def)             Requested size: 88.53046pt x 99.37099pt.
+<./images/knightPosMoves.jpg, id=65, 14.454pt x 30.3534pt>
+File: ./images/knightPosMoves.jpg Graphic file (type jpg)
+<use ./images/knightPosMoves.jpg>
+Package pdftex.def Info: ./images/knightPosMoves.jpg  used on input line 345.
+(pdftex.def)             Requested size: 36.13483pt x 75.88326pt.
+<./images/pawnStartPos.jpg, id=66, 34.4487pt x 39.0258pt>
+File: ./images/pawnStartPos.jpg Graphic file (type jpg)
+<use ./images/pawnStartPos.jpg>
+Package pdftex.def Info: ./images/pawnStartPos.jpg  used on input line 354.
+(pdftex.def)             Requested size: 86.12152pt x 97.56424pt.
+[13 <./images/kingStartPos.jpg> <./images/kingPosMoves.jpg> <./images/knightSta
+rtPos.jpg> <./images/knightPosMoves.jpg>]
+<./images/pawnPosMoves.jpg, id=71, 14.454pt x 29.8716pt>
+File: ./images/pawnPosMoves.jpg Graphic file (type jpg)
+<use ./images/pawnPosMoves.jpg>
+Package pdftex.def Info: ./images/pawnPosMoves.jpg  used on input line 360.
+(pdftex.def)             Requested size: 36.13483pt x 74.67876pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+
+ []
+
+<./images/check.jpg, id=72, 45.771pt x 51.5526pt>
+File: ./images/check.jpg Graphic file (type jpg)
+<use ./images/check.jpg>
+Package pdftex.def Info: ./images/check.jpg  used on input line 369.
+(pdftex.def)             Requested size: 114.42719pt x 128.88115pt.
+<./images/checkMate.jpg, id=73, 43.8438pt x 57.5751pt>
+File: ./images/checkMate.jpg Graphic file (type jpg)
+<use ./images/checkMate.jpg>
+Package pdftex.def Info: ./images/checkMate.jpg  used on input line 375.
+(pdftex.def)             Requested size: 109.60918pt x 143.93738pt.
+[14 <./images/pawnStartPos.jpg> <./images/pawnPosMoves.jpg> <./images/check.jpg
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
+ []
+
+[15 <./images/checkMate.jpg>] [16] (./W09-Practical.aux) ) 
 Here is how much of TeX's memory you used:
- 3487 strings out of 492642
- 48046 string characters out of 6135566
+ 3536 strings out of 492642
+ 49371 string characters out of 6135566
  302612 words of memory out of 5000000
- 7328 multiletter control sequences out of 15000+600000
+ 7368 multiletter control sequences out of 15000+600000
  8054 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,40p,983b,1159s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
-9.pfb>
-Output written on W09-Practical.pdf (11 pages, 365612 bytes).
+</usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on W09-Practical.pdf (16 pages, 556250 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

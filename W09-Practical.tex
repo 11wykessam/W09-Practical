@@ -279,6 +279,12 @@ There were a few things I found particularly tricky during development, one of t
 During my extension there are a few things I want to add that were not in the original specification. I want to add all the other pieces in chess to the board and change the win-state to be when either player has a checkmate as with traditional chess. Finally I want to add the option to play against an AI. I could also improve the program by adding more helpful error messages for what is invalid about any particular move.
 
 \section*{Extension}
+\section*{Overview}
+For my extension, I aim to implement an almost complete version of chess with a simple AI to play. This would involve the implementation of the following: \begin{itemize}
+\item Add all the other chess pieces.
+\item Write code to detect check and checkmate.
+\item Write an AI.
+\end{itemize}
 \section*{Design}
 The first thing I wished to add in my extension was the other pieces in chess. The first piece I decided to add was the Queen. The code for the queen is pretty simple, to check if a move is valid it makes two temporary pieces with the same x and y coords and then checks if the same move would be valid for either of those pieces.
 
@@ -290,6 +296,99 @@ The code for the Pawn was probably the most complex as there are lots of differe
 
 There are a number of other rules in chess I chose not to implement for sake of simplicity like castling, and pawn promotion. Instead I wanted to focus on programming an AI for this simplified version of chess. The first thing I needed to program was a different win condition. In this version of chess you do not win by taking every other piece, instead you win by creating a checkmate. That is a situation where the opponent cannot make a move that would put their King in a position it cannot be taken. This means I need to be able to check for checks  and checkmates and let the player know.
 
-To see if a check has been reached you need to establish that if a player was to have their turn then they could take the king of their opponent. To see if its check you need to see all the possible moves for each player and see if in either of the resulting scenarios the King is taken. I shall do this check after any move is made. To do this I will use the getWin() function again but this time I will have the return values be 1 for a white check, 2 for a white checkmate, -1 for a black check, -2 for a black checkmate and 0 for no checks or checkmates.
+One of the more difficult tasks was looking for a check or checkmate. The way I did this was have a method that gets all the possible boards that could occur from a given player's turn. I would then iterate through this list and see if in any of the boards a king was missing. This means a check exists and whichever player's turn you were checking for had a check. The checkmate test was harder to design. To do this I iterate through all the moves the opponent can do and see if any of them are not a check state.
+
+The last thing I had to program was the AI. To program the AI I first assigned a "score" to each ChessPiece subclass. With higher points representing more important pieces. The AI then forms a tree of possible boards and then performs a min max algorithm to find the best possible move based on the score.
+
+\section*{Testing}
+
+\noindent \textbf{Testing Movement of New Pieces}
+
+Before I test how the game works as a whole I will first test the movement code of each piece. To do this I will create a piece and then try moving it to every place on the board and see if the game correctly identifies the valid moves.
+
+First I will test the Queen. The board starts in this state: 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=2.5]{queenStartPos}
+\end{figure}
+
+I will then iterate and print a 1 for places the queen can move and print a 0 for unavailable spots. The following output is shown:
+\begin{figure}[H]
+\centering
+\includegraphics[scale=2.5]{queenPosMoves}
+\end{figure}
+As shown by the image the Queen is able to move in all diagonals and horizontally and vertically unless obstructed by a piece. It also knows it can take the piece that is the opposite colour. The code to actually perform the moves is the same as with the non-extension code so I shall not test it again.
+
+Next I shall test the possible moves for the King. I will do the same thing but replace the Queen piece with a King. The start position is shown below:
+\begin{figure}[H]
+\centering
+\includegraphics[scale=2.5]{kingStartPos}
+\end{figure}
+
+The possible move array is shown below:
+\begin{figure}[H]
+\centering
+\includegraphics[scale=2.5]{kingPosMoves}
+\end{figure}
+
+The King exhibits the expected behaviour and is only able to move to adjacent places so passes the test.
+
+Next I will test the Knight, below is the starting board for the test: 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=2.5]{knightStartPos}
+\end{figure}
+
+The possible move array is shown below: 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=2.5]{knightPosMoves}
+\end{figure}
+
+The knight exhibits the expected behaviour and doesn't move onto the piece from the same team. From this I can say that the Knight class passes the test.
+
+
+Finally I will test for a pawn, to test all the possible conditions I will start with the following board:
+\begin{figure}[H]
+\centering
+\includegraphics[scale=2.5]{pawnStartPos}
+\end{figure}
+
+The possible move array is shown below:
+\begin{figure}[H]
+\centering
+\includegraphics[scale=2.5]{pawnPosMoves}
+\end{figure}
+As you can see the pawn can either move one move up, two moves up (as it is the pawns first move) or take the piece diagonally adjacent. This is as expected so I can say that the test is passed. \newline
+
+\noindent \textbf{Testing Check and Checkmate}
+
+This is quite tricky to test as there are an extremely large number of situations that could be known as check or checkmate. For the sake of simplicity I will show that the game works for one example of a check and one example of a checkmate. Below is an example of a check: 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=2.5]{check}
+\end{figure}
+
+From the text at the top you can see the game is notifying the player of a check. Its a check and not a checkmate as the other play can move to get out. Below is an example of a checkmate:
+\begin{figure}[H]
+\centering
+\includegraphics[scale=2.5]{checkMate}
+\end{figure}
+
+As you can see the d8 to h4 move would place the queen in a position to take the king and the king wouldn't be able to move. The program has successfully detected the checkmate and stopped the execution of the program. \newline
+
+\noindent \textbf{Testing the AI}
+
+I attempted to make an AI using the minmax algorithm with alpha-beta pruning but I've been yet to figure out why it doesn't work. It plays moves that are sometimes as expected but are often very rubbish. The algorithm often finds itself unable to escape checks. 
+
+\section*{Evaluation}
+
+At the start of developing my extension I said I wanted a slightly simplified version of chess with an AI. I was successfully able to add the other pieces in chess and have them move as expected, I was also able to test the board for checks and checkmates as a winning condition instead of when all the other pieces are taken. The one thing I had a problem with was developing an AI. I managed to make a class, ComputerPlayer, that makes moves. Often the AI makes a stupid move or cannot escape chess. I used a minmax alpha-beta pruning algorithm.
+
+\section*{Conclusion}
+
+As with the starter I was able to use a lot of the aspects of Object-Oriented programming during the development of this program. I was able to further extend the ChessPiece class with the Pawn, Knight, Queen, and King classes all with their own implementation of ChessPiece's abstract methods. These methods could then be used by a group of methods used to determine whether a check or checkmate exists and to find the possible moves. The ability to get possible moves was used by the "AI" to find its next move.
+
+I found the AI very difficult to debug. The recursive nature of its methods made this so as there were so many branches to check that I couldn't get my head around figuring out what was wrong. If given more time I would try and fix this but I am at the point in the development where I think a full rewrite would be the only solution to figure out exactly what is happening and that would erase all the other progress I've made.
 
 \end{document}

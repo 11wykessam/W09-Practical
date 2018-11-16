@@ -7,11 +7,13 @@ public class Pawn extends ChessPiece {
     private final char SYMBOL;
 
     // boolean to store whether pawn has moved yet
-    private boolean hasMoved = false;
+    private boolean hasMoved;
 
     // constructor
     public Pawn(int x, int y, boolean colour, Board board) {
         super(x, y, colour, board);
+
+        hasMoved = false;
 
         // set appropriate symbol
         if(colour) SYMBOL = WHITECHARACTER;
@@ -28,6 +30,11 @@ public class Pawn extends ChessPiece {
         int move;
         if (playerTurn) move = -1;
         else move = 1;
+
+        // first make sure hasMoved is correct
+        if (this.getY() == 6 && this.getColour()) hasMoved = false;
+        else if (this.getY() == 1 && !this.getColour()) hasMoved = false;
+        else hasMoved = true;
 
         // there are three situations, either the piece moves forward 1 place, 2 places or 1 place diagonally.
         // first check for a forward move
@@ -48,6 +55,7 @@ public class Pawn extends ChessPiece {
                 }
                 else return false;
             }
+            else return false;
         }
         // now check if the move is diagonal to take a piece
         else if ((endX == this.getX() + 1 || endX == this.getX() - 1) && endY == this.getY() + move) {
@@ -72,7 +80,7 @@ public class Pawn extends ChessPiece {
         return this.SYMBOL;
     }
 
-    public void hasMoved() {
+    public void setHasMoved() {
         hasMoved = true;
     }
 }

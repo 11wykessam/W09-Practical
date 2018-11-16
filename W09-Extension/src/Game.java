@@ -57,7 +57,7 @@ public class Game {
         while (!done) {
 
             // create computer player
-            ComputerPlayer computerPlayer = new ComputerPlayer(gameBoard, 3, this);
+            ComputerPlayer computerPlayer = new ComputerPlayer(gameBoard, 5, this);
 
             // print the state of the board
             gameBoard.printBoard();
@@ -101,6 +101,7 @@ public class Game {
                 // change who's turn it is
                 turn = !turn;
                 gameBoard.setTurn(turn);
+
             }
 
         }
@@ -118,6 +119,7 @@ public class Game {
             }
 
             if (checkMate) {
+                gameBoard.printBoard();
                 boolean kingColour = gameBoard.getKingColour();
                 if (kingColour) System.out.println(WHITECHECKMATE);
                 else System.out.println(BLACKCHECKMATE);
@@ -136,6 +138,7 @@ public class Game {
             }
 
             if (checkMate) {
+                gameBoard.printBoard();
                 boolean kingColour = gameBoard.getKingColour();
                 if (kingColour) System.out.println(WHITECHECKMATE);
                 else System.out.println(BLACKCHECKMATE);

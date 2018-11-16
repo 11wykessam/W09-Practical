@@ -66,6 +66,9 @@ public abstract class ChessPiece implements Serializable {
     }
     public void setY(int y) {
         this.y = y;
+        if (this instanceof Pawn) {
+            ((Pawn) this).setHasMoved();
+        }
     }
 
     public boolean getColour() {

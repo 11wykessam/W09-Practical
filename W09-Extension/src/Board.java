@@ -202,10 +202,6 @@ public class Board implements Serializable {
 
                 // now check if the move is valid
                 if(pieceToMove.isMoveValid(endX, endY, playerColour)) {
-
-                    // if the piece is a pawn set it to has moved
-                    if (pieceToMove instanceof Pawn) ((Pawn) pieceToMove).hasMoved();
-
                     // if the place is occupied remove it
                     if (isPositionOccupied(endX, endY)) removePieceAt(endX, endY);
 
